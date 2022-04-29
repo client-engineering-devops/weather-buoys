@@ -1,5 +1,6 @@
 build/
-
+.env
+node_modules
 *.o
 *.mod
 weather_stats

@@ -1,0 +1,33 @@
+{
+  "name": "weather-buoys",
+  "version": "1.0.0",
+  "description": "[![](https://travis-ci.org/modern-fortran/weather-buoys.svg?branch=master)](https://travis-ci.org/modern-fortran/weather-buoys)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/client-engineering-devops/weather-buoys.git"
+  },
+  "keywords": [],
+  "author": " <Ross Kramer>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/client-engineering-devops/weather-buoys/issues"
+  },
+  "homepage": "https://github.com/client-engineering-devops/weather-buoys#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
